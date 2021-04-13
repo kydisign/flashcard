@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../assets/bootstap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/slide.css">
+    <title>FlashCard for Kids</title>
+</head>
+
+
+
+<body>
+
+<div class="container">
+
+  <div class="container4 text-center">
+    <h1>
+        Fruit
+    </h1>
+  </div>
+ 
+
+<div class="row mb-4">
+  <div class="column">
+    <img src="../assets/images/pg1/fruit/pg1fruit1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/fruit/pg1fruit2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/fruit/pg1fruit3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/fruit/pg1fruit4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/fruit/pg1fruit5.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/fruit/pg1fruit6.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/fruit/pg1fruit7.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content mb-4">
+
+    <div class="mySlides center">
+      <div class="numbertext">1 / 7
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('avocado');"><img src="../assets/images/sound.png" style="width: 30px;" alt="avocado" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('avocado')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="avocado"  src="../assets/sound/pg1/pg1fruit1.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/fruit/pg1fruit1.jpg" style="width:100%" >
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">2 / 7
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('starfruit');"><img src="../assets/images/sound.png" style="width: 30px;" alt="starfruit" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('starfruit')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="starfruit"  src="../assets/sound/pg1/pg1fruit2.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/fruit/pg1fruit2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">3 / 7
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('mangosteen');"><img src="../assets/images/sound.png" style="width: 30px;" alt="mangosteen" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('mangosteen')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="mangosteen"  src="../assets/sound/pg1/pg1fruit3.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/fruit/pg1fruit3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides center">
+      <div class="numbertext">4 / 7
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('pear');"><img src="../assets/images/sound.png" style="width: 30px;" alt="pear" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('pear')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="pear"  src="../assets/sound/pg1/pg1fruit4.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/fruit/pg1fruit4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">5 / 7
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('kiwi');"><img src="../assets/images/sound.png" style="width: 30px;" alt="kiwi" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('kiwi')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="kiwi"  src="../assets/sound/pg1/pg1fruit5.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/fruit/pg1fruit5.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">6 / 7
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('coconut');"><img src="../assets/images/sound.png" style="width: 30px;" alt="coconut" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('coconut')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="coconut"  src="../assets/sound/pg1/pg1fruit6.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/fruit/pg1fruit6.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+        <div class="numbertext">7 / 7
+          <div class="container">
+            <!-- Image --> 
+              <a href="javascript:playSound('mango');"><img src="../assets/images/sound.png" style="width: 30px;" alt="mango" />
+              </a> <br/>
+            <!-- Link -->
+              <a href="javascript:playSound('mango')"></a>
+          </div>
+            <!--Audio File-->
+            <audio id="mango"  src="../assets/sound/pg1/pg1fruit7.mp3" preload="auto"></audio>
+        </div>
+        <img src="../assets/images/pg1/fruit/pg1fruit7.jpg" style="width:100%">
+      </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="d-flex bg-dark">
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/pg1/fruit/pg1fruit1.jpg" style="width:100%" onclick="currentSlide(1)" alt="AVOCADO">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/pg1/fruit/pg1fruit2.jpg" style="width:100%" onclick="currentSlide(2)" alt="STAR FRUIT">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/pg1/fruit/pg1fruit3.jpg" style="width:100%" onclick="currentSlide(3)" alt="MANGOSTEEN">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/pg1/fruit/pg1fruit4.jpg" style="width:100%" onclick="currentSlide(4)" alt="PEAR">
+        </div>
+        <div class="column p-2">
+          <img class="demo cursor" src="../assets/images/pg1/fruit/pg1fruit5.jpg" style="width:100%" onclick="currentSlide(5)" alt="KIWI">
+      </div>
+      <div class="column p-2">
+        <img class="demo cursor" src="../assets/images/pg1/fruit/pg1fruit6.jpg" style="width:100%" onclick="currentSlide(6)" alt="COCONUT">
+    </div>
+    <div class="column p-2">
+        <img class="demo cursor" src="../assets/images/pg1/fruit/pg1fruit7.jpg" style="width:100%" onclick="currentSlide(7)" alt="MANGO">
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<script src="../assets/js/slide.js"></script>
+<script src="../assets/js/sound.js"></script>
+
+</body>

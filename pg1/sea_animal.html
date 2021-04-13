@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../assets/bootstap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/slide.css">
+    <title>FlashCard for Kids</title>
+</head>
+
+
+
+<body>
+
+<div class="container">
+
+  <div class="container4 text-center">
+    <h1>
+        Sea Animal
+    </h1>
+  </div>
+ 
+
+<div class="row mb-4">
+  <div class="column">
+    <img src="../assets/images/pg1/sea_animal/pg1sa1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/sea_animal/pg1sa2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/sea_animal/pg1sa3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/sea_animal/pg1sa4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/sea_animal/pg1sa5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/sea_animal/pg1sa6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content mb-4">
+
+    <div class="mySlides center">
+      <div class="numbertext">1 / 6
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('fish');"><img src="../assets/images/sound.png" style="width: 30px;" alt="fish" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('fish')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="fish"  src="../assets/sound/pg1/pg1seaanimal1.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/sea_animal/pg1sa1.jpg" style="width:100%" >
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">2 / 6
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('crab');"><img src="../assets/images/sound.png" style="width: 30px;" alt="crab" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('crab')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="crab"  src="../assets/sound/pg1/pg1seaanimal2.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/sea_animal/pg1sa2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">3 / 6
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('starfish');"><img src="../assets/images/sound.png" style="width: 30px;" alt="starfish" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('starfish')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="starfish"  src="../assets/sound/pg1/pg1seaanimal3.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/sea_animal/pg1sa3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides center">
+      <div class="numbertext">4 / 6
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('squid');"><img src="../assets/images/sound.png" style="width: 30px;" alt="squid" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('squid')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="squid"  src="../assets/sound/pg1/pg1seaanimal4.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/sea_animal/pg1sa4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">5 / 6
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('turtle');"><img src="../assets/images/sound.png" style="width: 30px;" alt="turtle" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('turtle')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="turtle"  src="../assets/sound/pg1/pg1seaanimal5.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/sea_animal/pg1sa5.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">6 / 6
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('seahorse');"><img src="../assets/images/sound.png" style="width: 30px;" alt="seahorse" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('seahorse')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="seahorse"  src="../assets/sound/pg1/pg1seaanimal6.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/sea_animal/pg1sa6.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="d-flex bg-dark">
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/pg1/sea_animal/pg1sa1.jpg" style="width:100%" onclick="currentSlide(1)" alt="FISH">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/pg1/sea_animal/pg1sa2.jpg" style="width:100%" onclick="currentSlide(2)" alt="CRAB">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/pg1/sea_animal/pg1sa3.jpg" style="width:100%" onclick="currentSlide(3)" alt="STARFISH">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/pg1/sea_animal/pg1sa4.jpg" style="width:100%" onclick="currentSlide(4)" alt="SQUID">
+        </div>
+        <div class="column p-2">
+          <img class="demo cursor" src="../assets/images/pg1/sea_animal/pg1sa5.jpg" style="width:100%" onclick="currentSlide(5)" alt="TURTLE">
+      </div>
+      <div class="column p-2">
+        <img class="demo cursor" src="../assets/images/pg1/sea_animal/pg1sa6.jpg" style="width:100%" onclick="currentSlide(6)" alt="SEA HORSE">
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<script src="../assets/js/slide.js"></script>
+<script src="../assets/js/sound.js"></script>
+
+</body>

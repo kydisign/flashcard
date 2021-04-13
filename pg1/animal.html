@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../assets/bootstap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/slide.css">
+    <title>FlashCard for Kids</title>
+</head>
+
+
+
+<body>
+
+<div class="container">
+
+  <div class="container4 text-center">
+    <h1>
+       Animal
+    </h1>
+  </div>
+ 
+
+<div class="row mb-4">
+  <div class="column">
+    <img src="../assets/images/pg1/animal/pg1a1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/animal/pg1a2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/animal/pg1a3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/animal/pg1a4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/animal/pg1a5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/animal/pg1a6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/animal/pg1a7.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/animal/pg1a8.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/pg1/animal/pg1a9.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content mb-4">
+
+    <div class="mySlides center">
+      <div class="numbertext">1 / 9
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('lion');"><img src="../assets/images/sound.png" style="width: 30px;" alt="lion" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('lion')"></a>
+          </div>
+          <!--Audio File-->
+          <audio id="lion"  src="../assets/sound/pg1/pg1animal1.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/animal/pg1a1.jpg" style="width:100%" >
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">2 / 9
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('rabbit');"><img src="../assets/images/sound.png" alt="rabbit"  style="width: 30px;" /></a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('rabbit')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="rabbit"  src="../assets/sound/pg1/pg1animal2.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/animal/pg1a2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">3 / 9
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('fox');"><img src="../assets/images/sound.png" style="width: 30px;" alt="fox" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('fox')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="fox"  src="../assets/sound/pg1/pg1animal3.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/animal/pg1a3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides center">
+      <div class="numbertext">4 / 9
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('elephant');"><img src="../assets/images/sound.png" style="width: 30px;" alt="elephant" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('elephant')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="elephant"  src="../assets/sound/pg1/pg1animal4.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/animal/pg1a4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">5 / 9
+        <div class="container">
+          <!-- Image --> 
+          <a href="javascript:playSound('pig');"><img src="../assets/images/sound.png" style="width: 30px;" alt="pig" />
+          </a> <br/>
+          <!-- Link -->
+          <a href="javascript:playSound('pig')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="pig"  src="../assets/sound/pg1/pg1animal5.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/animal/pg1a5.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">6 / 9
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('bear');"><img src="../assets/images/sound.png" style="width: 30px;" alt="bear" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('bear')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="bear"  src="../assets/sound/pg1/pg1animal6.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/pg1/animal/pg1a6.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+        <div class="numbertext">7 / 9
+          <div class="container">
+            <!-- Image --> 
+              <a href="javascript:playSound('giraffe');"><img src="../assets/images/sound.png" style="width: 30px;" alt="giraffe" />
+              </a> <br/>
+            <!-- Link -->
+              <a href="javascript:playSound('giraffe')"></a>
+          </div>
+            <!--Audio File-->
+            <audio id="giraffe"  src="../assets/sound/pg1/pg1animal7.mp3" preload="auto"></audio>
+        </div>
+        <img src="../assets/images/pg1/animal/pg1a7.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides center">
+        <div class="numbertext">8 / 9
+          <div class="container">
+            <!-- Image --> 
+              <a href="javascript:playSound('monkey');"><img src="../assets/images/sound.png" style="width: 30px;" alt="monkey" />
+              </a> <br/>
+            <!-- Link -->
+              <a href="javascript:playSound('monkey')"></a>
+         </div>
+            <!--Audio File-->
+            <audio id="monkey"  src="../assets/sound/pg1/pg1animal8.mp3" preload="auto"></audio>
+        </div>
+        <img src="../assets/images/pg1/animal/pg1a8.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+        <div class="numbertext">9 / 9</div>
+        <img src="../assets/images/pg1/animal/pg1a9.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="d-flex bg-dark">
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/pg1/animal/pg1a1.jpg" style="width:100%" onclick="currentSlide(1)" alt="LION">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/pg1/animal/pg1a2.jpg" style="width:100%" onclick="currentSlide(2)" alt="RABBIT">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/pg1/animal/pg1a3.jpg" style="width:100%" onclick="currentSlide(3)" alt="FOX">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/pg1/animal/pg1a4.jpg" style="width:100%" onclick="currentSlide(4)" alt="ELEPHANT">
+        </div>
+        <div class="column p-2">
+          <img class="demo cursor" src="../assets/images/pg1/animal/pg1a5.jpg" style="width:100%" onclick="currentSlide(5)" alt="PIG">
+      </div>
+      <div class="column p-2">
+        <img class="demo cursor" src="../assets/images/pg1/animal/pg1a6.jpg" style="width:100%" onclick="currentSlide(6)" alt="BEAR">
+    </div>
+    <div class="column p-2">
+        <img class="demo cursor" src="../assets/images/pg1/animal/pg1a7.jpg" style="width:100%" onclick="currentSlide(7)" alt="GIRAFFE">
+    </div>
+    <div class="column p-2">
+        <img class="demo cursor" src="../assets/images/pg1/animal/pg1a8.jpg" style="width:100%" onclick="currentSlide(8)" alt="MONKEY">
+    </div>
+    <div class="column p-2">
+        <img class="demo cursor" src="../assets/images/pg1/animal/pg1a9.jpg" style="width:100%" onclick="currentSlide(9)" alt="CAT">
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<script src="../assets/js/slide.js"></script>
+<script src="../assets/js/sound.js"></script>
+
+</body>

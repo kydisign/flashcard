@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../assets/bootstap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/slide.css">
+    <title>FlashCard for Kids</title>
+</head>
+
+
+
+<body>
+
+<div class="container">
+
+  <div class="container4 text-center">
+    <h1>
+        Animal
+    </h1>
+  </div>
+ 
+
+<div class="row mb-4">
+  <div class="column">
+    <img src="../assets/images/kga/animal/kgaa1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/kga/animal/kgaa2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/kga/animal/kgaa3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/kga/animal/kgaa4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/kga/animal/kgaa5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/kga/animal/kgaa6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/kga/animal/kgaa7.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/kga/animal/kgaa8.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content mb-4">
+
+    <div class="mySlides center">
+      <div class="numbertext">1 / 8
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('fox');"><img src="../assets/images/sound.png" style="width: 30px;" alt="fox" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('fox')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="fox"  src="../assets/sound/kga/kgaanimal1.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/kga/animal/kgaa1.jpg" style="width:100%" >
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">2 / 8
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('snake');"><img src="../assets/images/sound.png" style="width: 30px;" alt="snake" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('snake')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="snake"  src="../assets/sound/kga/kgaanimal2.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/kga/animal/kgaa2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">3 / 8
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('crocodile');"><img src="../assets/images/sound.png" style="width: 30px;" alt="crocodile" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('crocodile')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="crocodile"  src="../assets/sound/kga/kgaanimal3.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/kga/animal/kgaa3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides center">
+      <div class="numbertext">4 / 8
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('chicken');"><img src="../assets/images/sound.png" style="width: 30px;" alt="chicken" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('chicken')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="chicken"  src="../assets/sound/kga/kgaanimal4.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/kga/animal/kgaa4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">5 / 8
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('mouse');"><img src="../assets/images/sound.png" style="width: 30px;" alt="mouse" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('mouse')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="mouse"  src="../assets/sound/kga/kgaanimal5.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/kga/animal/kgaa5.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">6 / 8
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('bear');"><img src="../assets/images/sound.png" style="width: 30px;" alt="bear" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('bear')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="bear"  src="../assets/sound/kga/kgaanimal6.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/kga/animal/kgaa6.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+        <div class="numbertext">7 / 8
+          <div class="container">
+            <!-- Image --> 
+              <a href="javascript:playSound('ox');"><img src="../assets/images/sound.png" style="width: 30px;" alt="ox" />
+              </a> <br/>
+            <!-- Link -->
+              <a href="javascript:playSound('ox')"></a>
+          </div>
+            <!--Audio File-->
+            <audio id="ox"  src="../assets/sound/kga/kgaanimal7.mp3" preload="auto"></audio>
+        </div>
+        <img src="../assets/images/kga/animal/kgaa7.jpg" style="width:100%">
+    </div>
+    <div class="mySlides center">
+        <div class="numbertext">8 / 8
+          <div class="container">
+            <!-- Image --> 
+              <a href="javascript:playSound('alligator');"><img src="../assets/images/sound.png" style="width: 30px;" alt="alligator" />
+              </a> <br/>
+            <!-- Link -->
+              <a href="javascript:playSound('alligator')"></a>
+          </div>
+            <!--Audio File-->
+            <audio id="alligator"  src="../assets/sound/kga/kgaanimal8.mp3" preload="auto"></audio>
+        </div>
+        <img src="../assets/images/kga/animal/kgaa8.jpg" style="width:100%">
+    </div>
+     
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="d-flex bg-dark">
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/kga/animal/kgaa1.jpg" style="width:100%" onclick="currentSlide(1)" alt="FOX">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/kga/animal/kgaa2.jpg" style="width:100%" onclick="currentSlide(2)" alt="SNAKE">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/kga/animal/kgaa3.jpg" style="width:100%" onclick="currentSlide(3)" alt="CROCODILE">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/kga/animal/kgaa4.jpg" style="width:100%" onclick="currentSlide(4)" alt="CHICKEN">
+        </div>
+        <div class="column p-2">
+          <img class="demo cursor" src="../assets/images/kga/animal/kgaa5.jpg" style="width:100%" onclick="currentSlide(5)" alt="MOUSE">
+      </div>
+      <div class="column p-2">
+        <img class="demo cursor" src="../assets/images/kga/animal/kgaa6.jpg" style="width:100%" onclick="currentSlide(6)" alt="BEAR">
+    </div>
+    <div class="column p-2">
+        <img class="demo cursor" src="../assets/images/kga/animal/kgaa7.jpg" style="width:100%" onclick="currentSlide(7)" alt="OX">
+    </div>
+    <div class="column p-2">
+        <img class="demo cursor" src="../assets/images/kga/animal/kgaa8.jpg" style="width:100%" onclick="currentSlide(8)" alt="ALIGATOR">
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<script src="../assets/js/slide.js"></script>
+<script src="../assets/js/sound.js"></script>
+
+</body>

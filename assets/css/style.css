@@ -1,0 +1,90 @@
+body{
+    background-color: #dd816f;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.c1{
+    background-color: aqua;
+}
+
+.container4{
+    height: 10em;
+    position: relative
+}
+
+.container h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    margin-top: 80px;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+}
+
+
+
+.conbar{
+    margin-top: 100px;
+}
+
+.conbar a{
+    color: black;
+}
+
+.conbar a h5{
+    font-size: 42px;
+}
+
+.conbar a p{
+    font-size: 24px;
+}
+
+
+
+/* modal */
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+
+
+.modal-body {
+position:relative;
+padding:0px;
+min-height:400px;
+background:rgb(204, 204, 204);
+text-align: center;
+}
+
+.modal-body img {
+    width: 480px;
+    margin: 20px;
+}
+
+
+
+
+.close {
+position:absolute;
+right:-30px;
+top:0;
+z-index:999;
+font-size:2rem;
+font-weight: normal;
+color:#fff;
+opacity:1;
+}
+
+#image {
+min-height:200px;
+}
+
+
+
+/* end of modal */
+
+

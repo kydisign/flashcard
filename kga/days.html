@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../assets/bootstap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/slide.css">
+    <title>FlashCard for Kids</title>
+</head>
+
+
+
+<body>
+
+<div class="container">
+
+  <div class="container4 text-center">
+    <h1>
+        Days
+    </h1>
+  </div>
+ 
+
+<div class="row mb-4">
+  <div class="column">
+    <img src="../assets/images/kga/days/kgad1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/kga/days/kgad2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/kga/days/kgad3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/kga/days/kgad4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/kga/days/kgad5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/kga/days/kgad6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/kga/days/kgad7.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content mb-4">
+
+    <div class="mySlides center">
+      <div class="numbertext">1 / 7
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('monday');"><img src="../assets/images/sound.png" style="width: 30px;" alt="monday" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('monday')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="monday"  src="../assets/sound/kga/kgadays1.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/kga/days/kgad1.jpg" style="width:100%" >
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">2 / 7
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('tuesday');"><img src="../assets/images/sound.png" style="width: 30px;" alt="tuesday" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('tuesday')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="tuesday"  src="../assets/sound/kga/kgadays2.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/kga/days/kgad2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">3 / 7
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('wednesday');"><img src="../assets/images/sound.png" style="width: 30px;" alt="wednesday" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('wednesday')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="wednesday"  src="../assets/sound/kga/kgadays3.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/kga/days/kgad3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides center">
+      <div class="numbertext">4 / 7
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('thursday');"><img src="../assets/images/sound.png" style="width: 30px;" alt="thursday" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('thursday')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="thursday"  src="../assets/sound/kga/kgadays4.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/kga/days/kgad4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">5 / 7
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('friday');"><img src="../assets/images/sound.png" style="width: 30px;" alt="friday" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('friday')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="friday"  src="../assets/sound/kga/kgadays5.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/kga/days/kgad5.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+      <div class="numbertext">6 / 7
+        <div class="container">
+          <!-- Image --> 
+            <a href="javascript:playSound('saturday');"><img src="../assets/images/sound.png" style="width: 30px;" alt="saturday" />
+            </a> <br/>
+          <!-- Link -->
+            <a href="javascript:playSound('saturday')"></a>
+        </div>
+          <!--Audio File-->
+          <audio id="saturday"  src="../assets/sound/kga/kgadays6.mp3" preload="auto"></audio>
+      </div>
+      <img src="../assets/images/kga/days/kgad6.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides center">
+        <div class="numbertext">7 / 7
+          <div class="container">
+            <!-- Image --> 
+              <a href="javascript:playSound('sunday');"><img src="../assets/images/sound.png" style="width: 30px;" alt="sunday" />
+              </a> <br/>
+            <!-- Link -->
+              <a href="javascript:playSound('sunday')"></a>
+          </div>
+            <!--Audio File-->
+            <audio id="sunday"  src="../assets/sound/kga/kgadays7.mp3" preload="auto"></audio>
+        </div>
+        <img src="../assets/images/kga/days/kgad7.jpg" style="width:100%">
+    </div>
+     
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="d-flex bg-dark">
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/kga/days/kgad1.jpg" style="width:100%" onclick="currentSlide(1)" alt="MONDAY">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/kga/days/kgad2.jpg" style="width:100%" onclick="currentSlide(2)" alt="TUESDAY">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/kga/days/kgad3.jpg" style="width:100%" onclick="currentSlide(3)" alt="WEDNESDAY">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/kga/days/kgad4.jpg" style="width:100%" onclick="currentSlide(4)" alt="THURSDAY">
+        </div>
+        <div class="column p-2">
+          <img class="demo cursor" src="../assets/images/kga/days/kgad5.jpg" style="width:100%" onclick="currentSlide(5)" alt="FRIDAY">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/kga/days/kgad6.jpg" style="width:100%" onclick="currentSlide(6)" alt="SATURDAY">
+        </div>
+        <div class="column p-2">
+            <img class="demo cursor" src="../assets/images/kga/days/kgad7.jpg" style="width:100%" onclick="currentSlide(7)" alt="SUNDAY">
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<script src="../assets/js/slide.js"></script>
+<script src="../assets/js/sound.js"></script>
+
+</body>
