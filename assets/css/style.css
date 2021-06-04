@@ -27,6 +27,32 @@ body{
     font-family: 'gothambold';
 }
 
+.home{
+    background: url("../images/bg_home.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.categories{
+    background: url("../images/bg_category.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.seaanimal{
+    background: url("../images/bg_seaanimal.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
 
 .c1{
     background-color: aqua;
