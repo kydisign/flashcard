@@ -27,6 +27,8 @@ body{
     font-family: 'gothambold';
 }
 
+
+/* background */
 .home{
     background: url("../images/bg_home.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -43,7 +45,7 @@ body{
     background-size: cover;
 }
 
-.seaanimal{
+.pg1seaanimal{
     background: url("../images/bg_seaanimal.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -51,7 +53,102 @@ body{
     background-size: cover;
 }
 
+.pg1animal{
+    background: url("../images/pg1_animal.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
+.pg1fruit{
+    background: url("../images/pg1_fruit.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.pg1animal{
+    background: url("../images/pg1_animal.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.pg2fruit{
+    background: url("../images/pg2_fruit.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.pg2profession{
+    background: url("../images/pg2_profession.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.pg2transportation{
+    background: url("../images/pg2_transportation.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.kgaanimal{
+    background: url("../images/kga_animal.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.kgaclothes{
+    background: url("../images/kga_clothes.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.kgadays{
+    background: url("../images/kga_days.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.kgbanimal{
+    background: url("../images/kgb_animal.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.kgbmonths{
+    background: url("../images/kgb_months.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.kgbnumber{
+    background: url("../images/kgb_number_mandarin.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* end of background */
 
 
 .c1{
